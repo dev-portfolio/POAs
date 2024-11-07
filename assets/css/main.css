@@ -1082,7 +1082,7 @@ section,
   font-size: 16px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
   .services .content [class^=col-]:nth-child(4n+4) .service-item {
     border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   }
@@ -1098,28 +1098,16 @@ section,
 @media (max-width: 768px) {
   .services .content .borders {
     margin-bottom: 10px;
-	border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-	border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-	border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+	width: 100%;
+	border : 0;
   }
   
   .services .content .service-item .service-item-icon img {
-    width: 365px;
+    width: 376px;
   }
+  
 }
 
-@media (max-width: 576px) {
-  .services .content .borders {
-    margin-bottom: 10px;
-	border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-	border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-	border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  }
-  
-  .services .content .service-item .service-item-icon img {
-    width: 365px;
-  }
-}
 
 /*--------------------------------------------------------------
 # About Section
